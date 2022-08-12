@@ -60,6 +60,7 @@ header{
   align-items:center;
   text-align: center;
   margin-top: 77px;
+  margin-bottom: 200px;
 }
 
 .our_mission{
@@ -105,6 +106,7 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .left_card{
@@ -143,4 +145,49 @@ header{
 
 .right_card p{
   margin-top: 46px;
+}
+
+.impact_top{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.impact_top img{
+  margin-right: 59px;
+}
+
+.our_impact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.impact_title{
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 30px;
+  color: #414141;
+  margin-bottom: 41px;
+}
+
+.impact_paragraph{
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #414141;
+  width: 613px;
+}
+
+.impact_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 142px;
+  margin-left: 90px;
 }
