@@ -147,6 +147,8 @@ header{
   margin-top: 46px;
 }
 
+
+
 .impact_top{
   display: flex;
   flex-direction: row;
@@ -190,4 +192,47 @@ header{
   justify-content: space-around;
   margin-top: 142px;
   margin-left: 90px;
+  margin-bottom: 130px;
+}
+
+.impact_button{
+  position: relative;
+  left: 36%;
+}
+
+.CTAs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 179px;
+  background-color: #EEE9FE;
+  margin-top: 76px;
+}
+
+.CTAs p{
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 34px;
+text-align: center;
+color: #414141;
+}
+
+.donation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.support{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
