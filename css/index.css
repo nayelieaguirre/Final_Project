@@ -1,0 +1,146 @@
+header{
+  background-color: #EEE9FE;
+}
+
+.nav{
+  align-items: baseline;
+}
+
+.nav-link{
+  color: #9C3192 !important;
+  font-size: 17px !important;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+}
+
+.hero{
+  background-image: url("/images/hero.tiff");
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  height: 656px;
+}
+
+.hero_text{
+  height: 656px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  font-family: 'Avenir Next';
+}
+
+.hero_big{
+  font-size: 72px;
+  color: #9C3192;
+  font-weight: 700;
+  position: relative;
+  left: 60px;
+}
+
+.hero_small{
+  font-size: 28px;
+  color: #9C3192;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  left: 115px;
+}
+
+.hero_button{
+  position: relative;
+  left: 100px;
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  margin-top: 77px;
+}
+
+.our_mission{
+  font-size: 20px;
+  color: #414141;
+  font-weight: 700;
+  width: 200px;
+  font-family: 'Avenir Next';
+  line-height: 30px;
+}
+
+.mission_statement{
+  font-size: 42px;
+  color: #414141;
+  font-weight: 400;
+  width: 1265px;
+  font-family: 'Avenir Next';
+  line-height: 83px;
+}
+
+.about_us{
+  margin-top: 50px;
+}
+
+.about_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 150%;
+  text-align: center;
+  color: #414141;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.about_tumors_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 379px;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #4D4D4D;
+  margin-right: 95px;
+}
+
+.right_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  color: #4D4D4D;
+  margin-left: 95px;
+}
+
+.left_card p {
+  margin-top: 36px;
+}
+
+.right_card p{
+  margin-top: 46px;
+}
