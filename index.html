@@ -20,22 +20,22 @@
           <img src="images/logo.tiff" width="190" height="100">
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Patients</a>
+          <a class ="nav_link" href="#">Patients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Professionals</a>
+          <a class="nav_link" href="#">Professionals</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Getting Involved</a>
+          <a class="nav_link" href="#">Getting Involved</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ways to Donate</a>
+          <a class="nav_link" href="#">Ways to Donate</a>
         </li>
         <li class="nav-item">
-          <img src="images/search_icon.tiff" width="23" height="23"> 
+          <img id="search" src="images/search_icon.tiff" width="23" height="23" onmouseover="onHoverSearch();" onmouseout="offHoverSearch();"> 
         </li>
         <li class="nav-item">
-          <img src="images/donate_button.tiff" width="136" height="49">  
+          <button class="donate">Donate</button>
         </li>
       </ul>
 
@@ -43,7 +43,7 @@
         <div class="hero_text">
           <p class="hero_big">We're here to help.</p>
           <p class="hero_small">Newly Diagnosed?</p>
-          <img class="hero_button" src="images/support_button.tiff" width="249" height="74">
+          <button class="hero_button">Get Support</button>
         </div>
       </section>
     </header>
@@ -51,13 +51,13 @@
     <section class="mission">
       <p class="our_mission">OUR MISSION</p>
       <p class="mission_statement">The mission of the American Brain Tumor Association is to advance the understanding and treatment of brain tumors with the goals of improving, extending and, ultimately, saving the lives of those impacted by a brain tumor diagnosis.</p>
-      <img class="about_us" src="images/about_us_button.tiff" width="249" height="74">
+      <button class="about">About Us</button>
     </section>
 
     <section class="about_tumors">
       <div class="about_title">
         <p>About Brain Tumors</p>
-        <img class="arrow" src="images/arrow.tiff" width="35" height="40">
+        <img class="arrow" src="images/arrow.tiff" width="35" height="40" onmouseover="onHoverArrow();" onmouseout="offHoverArrow();">
       </div>
       <div class="about_tumors_cards">
         <div class="left_card">
@@ -85,27 +85,88 @@
         <img src="images/researchers.tiff" width="270" height="231">
         <img src="images/events.tiff" width="300" height="231">
       </div>
-      <img class="impact_button" src="images/impact_button.tiff" width="414" height="74">
+      <button class="impact_button">More About Our Impact</button>
     </section>
 
     <section class="CTAs">
       <div class="donation">
-        <img src="images/donation.tiff" width="109" height="109">
-        <p>Make A Donation</p>
+        <img id="donation" src="images/donation.tiff" width="109" height="109" onmouseover="onHoverDonation();" onmouseout="offHoverDonation();">
+        <p id="donation_text" onmouseover="onHoverDonation();" onmouseout="offHoverDonation();">Make A Donation</p>
       </div>
       <div class="contact_us">
-        <img src="images/email.tiff" width="105" height="105">
-        <p>Contact Us</p>
+        <img id="contact" src="images/email.tiff" width="105" height="105" onmouseover="onHoverContact();" onmouseout="offHoverContact();">
+        <p id="contact_text" onmouseover="onHoverContact();" onmouseout="offHoverContact();">Contact Us</p>
       </div>
       <div class="support">
-        <img src="images/pin.tiff" width="109" height="109">
-        <p>Find a Support Group</p>
+        <img id="support" src="images/pin.tiff" width="109" height="109" onmouseover="onHoverSupport();" onmouseout="offHoverSupport();">
+        <p id="support_text" onmouseover="onHoverSupport();" onmouseout="offHoverSupport();">Find a Support Group</p>
       </div>
     </section>
 
     <footer>
-      <img src="images/footer.tiff" width="1440" height="523">
+      <div class="column1"> 
+        <img src="images/logo2.tiff" width="272" height="136">
+        <p class="address">
+          8550 W. Bryn Mawr Ave. 
+          <br> Ste 550 
+          <br>Chicago, IL 60631
+        </p>
+        <p class="contact">
+          Phone: (773) 577-8750
+          <br>ABTA CareLine: (800) 886-2282
+          <br>E-mail: info@ABTA.org
+          <br>Fax: (773) 577-8738
+        </p>    
+      </div>
+      <div class="column2">
+        <h2>About Us</h2>
+        <ul>
+          <li>Mission & Impact</li> 
+          <li>Founders</li>
+          <li>Careers</li>
+          <li>News</li>
+          <li>Board & Leadership</li>
+          <li>Financials</li>
+        </ul>
+        <h2>About Brain Tumors</h2>
+        <ul>
+          <li>Diagnosis</li> 
+          <li>Treatments and Side Effects</li>
+          <li>Brain Tumor Types</li>
+          <li>Brain Tumor Education</li>
+        </ul>
+      </div>
+      <div class="column3">
+        <h2>Get Involved</h2>
+        <ul>
+          <li>BT5K Run and Walk</li> 
+          <li>Team ABTA</li>
+          <li>Fundraise Your Way</li>
+          <li>Events Calendar</li>
+          <li>Volunteer</li>
+          <li>Charitable Shopping</li>
+        </ul>
+        <h2>Find Support</h2>
+        <ul>
+          <li>Social and Emotional Support</li> 
+          <li>Support Groups</li>
+          <li>Connection Support Community</li>
+          <li>Patient and Family Meetings</li>
+        </ul>
+      </div>
+      <div class="column4">
+        <h2>Subscribe to our MindMatters e-Newsletter</h2>
+        <input type="email" placeholder="Email Address"> 
+        <button class="subscribe_button">Subscribe</button>
+        <div class="socials">
+          <img id="twitter" src="images/twitter.tiff" width="41" height="41" onmouseover="onHoverTwitter();" onmouseout="offHoverTwitter();">
+          <img id="facebook" src="images/facebook.tiff" width="36" height="36" onmouseover="onHoverFacebook();" onmouseout="offHoverFacebook();">
+          <img id="youtube" src="images/youtube.tiff" width="36" height="36" onmouseover="onHoverYoutube();" onmouseout="offHoverYoutube();">
+          <img id="linkedin" src="images/linkedin.tiff" width="36" height="36" onmouseover="onHoverLinkedin();" onmouseout="offHoverLinkedin();">
+        </div>
+      </div>
     </footer>
   </body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 </html>
